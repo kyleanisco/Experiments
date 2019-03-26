@@ -21,7 +21,7 @@ using namespace std;
 	
 	total=( box*a)+(sideline*b)+(premium*c)+(d*general);
 	cout<< "============================================= \n"; 
-	cout << "TOTAL PRICE: "<<total<<"$"<<endl;
+	cout << "TOTAL TICKET SALES: "<<total<<"$"<<endl;
 	cout<< "============================================= \n"; 
         getch;
         return 0;
