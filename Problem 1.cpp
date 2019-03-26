@@ -6,18 +6,20 @@ using namespace std;
 
     int main()
     {
-    
-    	int price;
-    	int TicketsSold;
+    	int box = 250;
+	int sideline = 100;
+	int premium = 50;
+	int general = 25;
+	int a= 5750, b = 28000, c=35750, d=18750; 
     	int total;
     
-	cout << "How much is the ticket? \n";
-	cin >> price;
+	cout << "The total sales in box tickets is: " << box*a<<"$"<<endl;
 	
-	cout<< "How many people bought the ticket? \n";
-	cin>> TicketsSold;
+	cout<< "The total sales in sideline tickets is: "<<sideline*b<<"$"<<endl;
+	cout << "The total sales in premium tickets is: "<<premium*c<<"$"<<endl;
+	cout << "The total sales in general admission tickets is: "<<d*general<<"$"<<endl;
 	
-	total=price*TicketsSold;
+	total=( box*a)+(sideline*b)+(premium*c)+(d*general);
 	cout<< "============================================= \n"; 
 	cout << "TOTAL PRICE: "<<total<<"$"<<endl;
 	cout<< "============================================= \n"; 
